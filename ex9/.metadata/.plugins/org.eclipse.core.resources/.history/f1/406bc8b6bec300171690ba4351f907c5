@@ -1,0 +1,75 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <errno.h>
+#include <string.h>
+#include <pthread.h>
+#include <fcntl.h>
+#include <sys/dispatch.h>
+#include <sys/mman.h>
+
+typedef struct pid_data{
+	pthread_mutex_t pid_mutex;
+	pid_t pid;
+};
+
+typedef struct message{
+	char content[25];
+};
+
+void* createSharedMemory(char location[]){
+	printf("Creating memory at location %s \n", location);
+	int descriptor = shm_open(location, O_RDWR | O_CREAT, S_IRWXU);
+	ftruncate(descriptor, sizeof(struct pid_data));
+	return mmap(0, sizeof(struct pid_data), PROT_READ | PROT_WRITE, MAP_SHARED, descriptor, 0);
+}
+
+void initMutex(struct pid_data* sharedData, pthread_mutexattr_t* mutex_attr){
+	printf("Initiating mutex \n");
+	pthread_mutexattr_init(&mutex_attr);
+	pthread_mutexattr_setpshared(&mutex_attr, PTHREAD_PROCESS_SHARED);
+	pthread_mutex_init(&sharedData->pid_mutex, &mutex_attr );
+}
+
+int main(int argc, char *argv[]) {
+	printf("TTK4147 - Exercise 9 - Server \n");
+
+	/*
+	 * Into
+	 */
+
+	struct pid_data* data;
+
+	void* memoryLocation = createSharedMemory("/sharedpid");
+	data = (struct pid_data*) memoryLocation;
+
+	data->pid = getpid();
+	printf("Saving pid: %d to shared memory \n", data->pid);
+
+	pthread_mutexattr_t mutex_attr;
+	initMutex(&memoryLocation, &mutex_attr);
+
+	/*
+	 *	Assignment A
+	 */
+
+	int channel = ChannelCreate(0);
+	printf("Created channel %d \n", channel);
+
+	struct message reply;
+	struct message buffer;
+	strcpy( reply.content, "I HEARD YA");
+
+	for(;;){
+		struct _msg_info sender;
+		int message_id = MsgReceive(channel, &buffer , sizeof(struct message), &sender);
+		printf("Received '%s' from client pid '%d', tid '%d' \n", buffer.content, sender.pid, sender.tid);
+		MsgReply(message_id, EOK, &reply, sizeof(struct message));
+
+	}
+
+	printf("Stopping server \n");
+	return EXIT_SUCCESS;
+}
