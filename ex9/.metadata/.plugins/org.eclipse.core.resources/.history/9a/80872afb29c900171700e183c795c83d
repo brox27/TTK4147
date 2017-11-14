@@ -81,8 +81,8 @@ int main(int argc, char *argv[]) {
 	 *	Assignment A
 	 */
 
-	int channel = ChannelCreate(0);
-	//nt channel = ChannelCreate(_NTO_CHF_FIXED_PRIORITY);
+	//int channel = ChannelCreate(0);
+	int channel = ChannelCreate();
 	printf("Created channel %d \n", channel);
 
 	struct message reply;

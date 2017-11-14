@@ -59,13 +59,10 @@ int* sender(struct thread_arguments *args){
 
 	setPriority(args->priority);
 	printf("Starting new thread with priority %d \n", getPriority());
-	/*
 	for(;;){
 		sendMessage(args->channel, "I am a client");
 		//usleep(1000);
 	}
-	*/
-	sendMessage(args->channel, "I am a client");
 
 }
 
@@ -87,7 +84,6 @@ int main(int argc, char *argv[]) {
 	/*
 	 * Into
 	*/
-	setPriority(50);
 
 	struct pid_data* data;
 	void* memoryLocation = accessSharedMemory("/sharedpid");
@@ -131,13 +127,10 @@ int main(int argc, char *argv[]) {
 			args.priority = i + 25;
 		}
 		pthread_create(&(threads[i]), NULL, sender, &args);
+		pthread_join(&(threads[i]), NULL);
 	}
 
-	for (i = 0; i < num_threads; i++){
-		pthread_join(threads[i], NULL);
-	}
-
-	//for(;;);
+	for(;;);
 	ConnectDetach(data->pid);
 	printf("Stopping client \n");
 	return EXIT_SUCCESS;

@@ -131,10 +131,11 @@ int main(int argc, char *argv[]) {
 			args.priority = i + 25;
 		}
 		pthread_create(&(threads[i]), NULL, sender, &args);
+		//pthread_join(&(threads[i]), NULL);
 	}
 
 	for (i = 0; i < num_threads; i++){
-		pthread_join(threads[i], NULL);
+			pthread_join(&(threads[i]), NULL);
 	}
 
 	//for(;;);
