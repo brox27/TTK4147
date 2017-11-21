@@ -3,7 +3,6 @@
 #include <fcntl.h>
 
 
-/*
 
 int main(int argc, char *argv[]) {
 	printf("Reading from file example \n");
@@ -20,4 +19,3 @@ int main(int argc, char *argv[]) {
 	return EXIT_SUCCESS;
 }
 
-*/

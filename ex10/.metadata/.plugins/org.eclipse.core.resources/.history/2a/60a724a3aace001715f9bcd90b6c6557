@@ -40,7 +40,7 @@ int command = IDLE;
 char buf[128];
 long counter = 0;
 int blocking=0;
-int nonblock = 0;
+int nonblock = 1;
 int client_id=0;
 
 void error(char *s)
@@ -68,10 +68,10 @@ int main(int argc, char *argv[]) {
 
 	// override functions
 	//io_funcs.read = io_read;
-	io_funcs.read = io_read_task_D;
+	//io_funcs.read = io_read_task_D;
 	//io_funcs.write = io_write_task_A;
-	//io_funcs.write = io_write_task_B;
-	io_funcs.write = io_write_task_D;
+	io_funcs.write = io_write_task_B;
+	//io_funcs.write = io_write_task_D;
 
 	// establish resource manager
 	if (resmgr_attach(dpp, &resmgr_attr, "/dev/myresource", _FTYPE_ANY, 0, &connect_funcs, &io_funcs, &io_attr) < 0)

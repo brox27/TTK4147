@@ -40,7 +40,7 @@ int command = IDLE;
 char buf[128];
 long counter = 0;
 int blocking=0;
-int nonblock = 0;
+int nonblock = 1;
 int client_id=0;
 
 void error(char *s)

@@ -40,7 +40,7 @@ int command = IDLE;
 char buf[128];
 long counter = 0;
 int blocking=0;
-int nonblock = 0;
+int nonblock = 1;
 int client_id=0;
 
 void error(char *s)
@@ -241,6 +241,7 @@ int io_read_task_D(resmgr_context_t *ctp, io_read_t *msg, iofunc_ocb_t *ocb)
 	}
 
 	char buf_D[WIDTH];
+	int status;
 
 	if(!ocb->offset)
 	{

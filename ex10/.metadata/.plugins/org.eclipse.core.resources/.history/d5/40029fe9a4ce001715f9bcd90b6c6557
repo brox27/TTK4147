@@ -4,7 +4,6 @@
 
 
 /*
-
 int main(int argc, char *argv[]) {
 	printf("Reading from file example \n");
 	int res;
@@ -19,5 +18,4 @@ int main(int argc, char *argv[]) {
 	close(fd);
 	return EXIT_SUCCESS;
 }
-
 */

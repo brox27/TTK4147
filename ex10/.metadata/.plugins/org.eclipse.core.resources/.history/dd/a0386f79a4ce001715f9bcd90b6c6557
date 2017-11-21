@@ -40,7 +40,6 @@ int command = IDLE;
 char buf[128];
 long counter = 0;
 int blocking=0;
-int nonblock = 0;
 int client_id=0;
 
 void error(char *s)
@@ -203,77 +202,15 @@ void* counterFunc (){
  * Task D
  */
 
+int io_read_task_D(resmgr_context_t *ctp, io_read_t *msg, iofunc_ocb_t *ocb)
+{
+
+
+}
+
 int io_write_task_D (resmgr_context_t *ctp, io_write_t *msg, RESMGR_OCB_T *ocb)
 {
 	char buf_D[WIDTH];
 
-	printf( "Echo/Write command \n" );
 
-	_IO_SET_WRITE_NBYTES (ctp, msg->i.nbytes);
-
-	pthread_mutex_lock( &FIFO_mutex );
-	resmgr_msgread(ctp, buf_D, msg->i.nbytes, sizeof(msg->i));
-	buf_D [msg->i.nbytes] = '\0';
-	fifo_add_string( &fifo, buf_D );
-	fifo_print(&fifo);
-
-	if ( blocking ) {
-		printf( "Block released\n" );
-		fifo_rem_string( &fifo, buf_D);
-		printf( "Sending %s\n", buf_D );
-		MsgReply(client_id, 0, buf_D, strlen(buf_D)+1);
-		blocking = 0;
-	}
-	pthread_mutex_unlock( &FIFO_mutex );
-
-	if (msg->i.nbytes > 0)
-		ocb->attr->flags |= IOFUNC_ATTR_MTIME | IOFUNC_ATTR_CTIME;
-
-	return (_RESMGR_NPARTS (0));
 }
-
-int io_read_task_D(resmgr_context_t *ctp, io_read_t *msg, iofunc_ocb_t *ocb)
-{
-
-	if ( blocking ) {
-		_IO_SET_READ_NBYTES(ctp, 0);
-		return (_RESMGR_NPARTS(0));
-	}
-
-	char buf_D[WIDTH];
-
-	if(!ocb->offset)
-	{
-		if ( fifo_status(&fifo) ) {
-
-			pthread_mutex_lock( &FIFO_mutex );
-			fifo_rem_string( &fifo, buf_D);
-			printf( "Return %s\n", buf_D );
-			SETIOV(ctp->iov, buf_D, strlen(buf_D));
-			_IO_SET_READ_NBYTES(ctp, strlen(buf_D));
-
-			ocb->offset = 1;
-			pthread_mutex_unlock( &FIFO_mutex );
-			return (_RESMGR_NPARTS(1));
-
-		} else {
-			if ( nonblock ) {
-				printf( "Return nothing\n" );
-				_IO_SET_READ_NBYTES(ctp, 0);
-				return (_RESMGR_NPARTS(0));
-			} else {
-				printf( "Blocking\n" );
-				blocking = 1;
-				client_id = ctp->rcvid;
-				return (_RESMGR_NOREPLY);
-			}
-		}
-	}
-	else
-	{
-		// return nothing
-		_IO_SET_READ_NBYTES(ctp, 0);
-		return (_RESMGR_NPARTS(0));
-	}
-}
-

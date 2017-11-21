@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="840"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
+		<item key="DIALOG_X_ORIGIN" value="1205"/>
 		<item key="DIALOG_HEIGHT" value="380"/>
-		<item key="DIALOG_Y_ORIGIN" value="335"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
+		<item key="DIALOG_Y_ORIGIN" value="338"/>
 		<item key="DIALOG_WIDTH" value="257"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="setPriority"/>
+		<item key="selection" value="offset"/>
 		<item key="wrap" value="false"/>
 		<item key="casesensitive" value="false"/>
 		<list key="findhistory">
-			<item value="set_priority"/>
-			<item value="get_priority"/>
-			<item value="int get_priority()"/>
+			<item value="offset"/>
+			<item value="iofunc_read_verify"/>
+			<item value="fcntl"/>
+			<item value="NONBLOCK"/>
+			<item value="non_block"/>
+			<item value="resmgr_msgread"/>
+			<item value="ctp"/>
+			<item value="buf"/>
 		</list>
 		<list key="replacehistory">
 			<item value="setPriority"/>

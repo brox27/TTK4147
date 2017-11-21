@@ -1657,3 +1657,995 @@ java.net.SocketException: Connection reset by peer: socket write error
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-11-14 13:39:43.532
 !MESSAGE Indexed 'Client' (1 sources, 55 headers) in 0,47 sec: 5 163 declarations; 3 254 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+!SESSION 2017-11-21 10:36:33.769 -----------------------------------------------
+eclipse.buildId=201006232051
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=no_NO
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.registry 2 0 2017-11-21 10:36:51.326
+!MESSAGE The extensions and extension-points from the bundle "com.qnx.doc.ide.userguide" are ignored. The bundle is not marked as singleton. 
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-21 10:37:30.526
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2017-11-21 10:37:55.175
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2017-11-21 10:38:08.197
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-11-21 10:38:08.197
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@e2d0ab),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@e2d0ab)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@e2d0ab),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@e2d0ab)),sourcePriority=16640)
+
+!ENTRY org.eclipse.ui 4 0 2017-11-21 10:38:08.611
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 org.eclipse.ui 0 0 2017-11-21 10:38:08.611
+!MESSAGE 
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2017-11-21 10:38:08.611
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2017-11-21 10:38:08.611
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2017-11-21 10:38:08.611
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2017-11-21 10:38:08.612
+!MESSAGE Unable to restore perspective: Workspace - C/C++.
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:08.612
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2017-11-21 10:38:08.612
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:08.612
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:08.612
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:08.612
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:08.612
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:08.612
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:08.612
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:08.612
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:08.612
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:08.612
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:08.612
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:08.612
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 4 0 2017-11-21 10:38:08.612
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2017-11-21 10:38:08.612
+!MESSAGE OK
+!SESSION 2017-11-21 10:38:35.059 -----------------------------------------------
+eclipse.buildId=201006232051
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=no_NO
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2017-11-21 10:38:35.838
+!MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+
+!ENTRY org.eclipse.ui 4 4 2017-11-21 10:38:41.601
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2017-11-21 10:38:43.319
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-11-21 10:38:43.319
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@1e2c9bf),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e2c9bf)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@1e2c9bf),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e2c9bf)),sourcePriority=16640)
+
+!ENTRY org.eclipse.ui 4 0 2017-11-21 10:38:43.441
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 org.eclipse.ui 0 0 2017-11-21 10:38:43.441
+!MESSAGE 
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2017-11-21 10:38:43.442
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2017-11-21 10:38:43.442
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2017-11-21 10:38:43.442
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2017-11-21 10:38:43.442
+!MESSAGE Unable to restore perspective: Workspace - C/C++.
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:43.442
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2017-11-21 10:38:43.442
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:43.442
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:43.442
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:43.442
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:43.442
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:43.442
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:43.442
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:43.442
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:43.442
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:43.442
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:43.442
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 0 0 2017-11-21 10:38:43.442
+!MESSAGE 
+!SUBENTRY 2 org.eclipse.ui 4 0 2017-11-21 10:38:43.442
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 org.eclipse.core.runtime 0 0 2017-11-21 10:38:43.442
+!MESSAGE OK
+
+!ENTRY org.eclipse.help.base 4 0 2017-11-21 11:37:52.574
+!MESSAGE Text Analyzer could not be created for locale {0}.  An analyzer that extends org.eclipse.help.luceneAnalyzer extension point needs to be plugged in for locale no_NO, or Java Virtual Machine needs to be upgraded to version with proper support for locale {0}.
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.653
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.adaptive_partitioning_en/../com.qnx.doc.adaptive_partitioning_en_user_guide/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.683
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.composition_manager/../com.qnx.doc.composition_manager_dev_guide/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.747
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.ddk_en/../com.qnx.doc.ddk_en_audio/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.748
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.ddk_en/../com.qnx.doc.ddk_en_character/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.749
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.ddk_en/../com.qnx.doc.ddk_en_graphics/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.749
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.ddk_en/../com.qnx.doc.ddk_en_input/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.750
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.ddk_en/../com.qnx.doc.ddk_en_usb/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.788
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.dinkum_en/../com.qnx.doc.dinkum_en_cpp/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.789
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.dinkum_en/../com.qnx.doc.dinkum_en_c99/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.790
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.dinkum_en/../com.qnx.doc.dinkum_en_ecpp/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.846
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.gf/../com.qnx.doc.gf_dev_guide/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.852
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.ham_en/../com.qnx.doc.ham_en_ham/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.867
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.ida_tdk_en/../com.qnx.doc.ida_tdk_en_appl_note/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.893
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.instr_en/../com.qnx.doc.instr_en_instr/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.913
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.io-pkt_en/../com.qnx.doc.io-pkt_en_user_guide/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.914
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.io-pkt_en/../com.qnx.doc.io-pkt_en_porting/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.941
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.language_sup/../com.qnx.doc.language_sup_cpim_ch/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.942
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.language_sup/../com.qnx.doc.language_sup_cpim_en/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.942
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.language_sup/../com.qnx.doc.language_sup_vpim_ja/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.943
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.language_sup/../com.qnx.doc.language_sup_vpim_en/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.944
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.language_sup/../com.qnx.doc.language_sup_kpim_ko/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:52.945
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.language_sup/../com.qnx.doc.language_sup_kpim_en/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.002
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.momentics/../com.qnx.doc.momentics_welcome/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.003
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.momentics/../com.qnx.doc.momentics_quickstart/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.004
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.momentics/../com.qnx.doc.momentics_release_notes/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.004
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.momentics/../com.qnx.doc.momentics_installation_guide/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.048
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.multicore_en/../com.qnx.doc.multicore_en_user_guide/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.069
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_addon/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.070
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_audio/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.071
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_building/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.072
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_cookbook/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.073
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_getting_started/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.073
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_lib_ref/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.074
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_pps/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.075
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_prog/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.076
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_qed_manual/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.077
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_resmgr/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.077
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_sys_arch/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.078
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_technotes/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.079
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_user_guide/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.080
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.neutrino/../com.qnx.doc.neutrino_utilities/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.340
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.photon/../com.qnx.doc.photon_prog_guide/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.341
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.photon/../com.qnx.doc.photon_lib_ref/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.342
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.photon/../com.qnx.doc.photon_widget_ref/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.342
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.photon/../com.qnx.doc.photon_wid_build/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.428
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.qdb_en/../com.qnx.doc.qdb_en_dev_guide/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help 4 0 2017-11-21 11:37:53.433
+!MESSAGE Error reading help table of contents file /"com.qnx.doc.webkit/../com.qnx.doc.webkit_dev_guide/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:45)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:45)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:205)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:194)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:298)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:67)
+	at org.eclipse.help.internal.search.IndexingOperation.getAllDocuments(IndexingOperation.java:482)
+	at org.eclipse.help.internal.search.IndexingOperation.getAddedDocuments(IndexingOperation.java:355)
+	at org.eclipse.help.internal.search.IndexingOperation.execute(IndexingOperation.java:88)
+	at org.eclipse.help.internal.search.LocalSearchManager.updateIndex(LocalSearchManager.java:620)
+	at org.eclipse.help.internal.search.LocalSearchManager.ensureIndexUpdated(LocalSearchManager.java:594)
+	at org.eclipse.help.internal.search.federated.IndexerJob.run(IndexerJob.java:31)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.help.base 4 0 2017-11-21 11:37:54.224
+!MESSAGE Text Analyzer could not be created for locale {0}.  An analyzer that extends org.eclipse.help.luceneAnalyzer extension point needs to be plugged in for locale no_NO, or Java Virtual Machine needs to be upgraded to version with proper support for locale {0}.
+
+!ENTRY org.eclipse.help.base 4 4 2017-11-21 11:39:00.329
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2017-11-21 11:39:00.329
+!MESSAGE Help document /com.qnx.doc.language_sup_kpim_ko/intro.html cannot be opened.
